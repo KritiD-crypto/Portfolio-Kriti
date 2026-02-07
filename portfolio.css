@@ -745,5 +745,39 @@ html, body {
     display: none;
   }
 
+    .hero {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding-top: 6rem;
+  }
+
+  .passport {
+    display: block;
+    margin: 0 auto 1.5rem auto;
+  }
+
+    .hero-cta {
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .hero-cta a {
+    width: 85%;
+    max-width: 260px;
+  }
+
+    .hero p {
+    width: 90%;
+    max-width: 420px;
+    font-size: 1rem;
+    margin-bottom: 0;
+  }
+    .hero-socials {
+    display: none;
+  }
+
 }
+
 
