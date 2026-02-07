@@ -681,10 +681,12 @@ html, body {
 @media (max-width: 768px) {
 
   .hero-cta {
-    margin-left: 0;
-    justify-content: center;
-    flex-wrap: wrap;
-  }
+  flex-direction: column;
+  align-items: center;
+  gap: 0.8rem;
+  margin-top: 1.5rem;
+}
+
 
   .hero-text {
     align-items: center;
@@ -714,5 +716,34 @@ html, body {
     width: 120px;
     height: 120px;
   }
+
+  .hero {
+  flex-direction: column;
+  align-items: center;
+  padding-top: 6rem;
+  height: auto;
+}
+
+.passport {
+  margin: 0;
+  margin-bottom: 1.2rem;
+}
+
+.hero p {
+  width: 90%;
+  margin-bottom: 0;
+  font-size: 1.05rem;
+}
+
+.passport {
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.list {
+    display: none;
+  }
+
 }
 
